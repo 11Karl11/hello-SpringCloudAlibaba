@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: nacos-config-client-load
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yml
+        namespace: f7882a29-fe9d-4a60-8738-6a9ef9645404
+        group: PIGX
+        ext-config:
+          - data-id: common.yml
+            group: PIGX
+            refresh: true
+        shared-dataids: common.yml
+        refreshable-dataids: common.yml
+
+
+server:
+  port: 8056
+
+

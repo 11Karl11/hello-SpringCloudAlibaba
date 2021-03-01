@@ -1,0 +1,11 @@
+server:
+  port: 18082
+#  servlet:
+#    context-path: /provider
+
+spring:
+  application:
+    name: sentinel-feign-provider
+  cloud:
+    nacos:
+      server-addr: localhost:8848
