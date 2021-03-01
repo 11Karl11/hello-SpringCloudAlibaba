@@ -5,7 +5,7 @@ spring:
   application:
     name: biz-service
   datasource:
-    url: jdbc:mysql://localhost:3306/order?useSSL=false
-    username: root
-    password: root
+    url: jdbc:mysql://192.168.0.104:3307/order?useSSL=false
+    username: ruhr_new
+    password: RUHR@007mysql
     driver-class-name: com.mysql.cj.jdbc.Driver
